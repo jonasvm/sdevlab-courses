@@ -1,0 +1,49 @@
+/* Folha de estilo do Layout */
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    text - align: center;
+} /* Esta regra all define o tamanho do site */
+#all {
+    width: 750px;
+}
+/* A regra topo define o topo do layout. A função dela no modelo é
+somente definir o tamanho do topo
+e colocar uma linha de divisão entre ele e o restante da página */
+#topo {
+    height: 50px;
+    border - width: 1 1 1 1px;
+    background: #000000;
+}
+/* Esta regra define as características da lista de links da coluna
+esquerda do layout */
+ul{
+margin:0;
+padding:0;
+list-style: square;
+}
+/* A regra abaixo define as configurações gerais dos títulos */
+h1, h2, h3 {
+color:# ffffff;
+    font - size: 1.4em;
+}
+/* Aqui sobrescrevemos as regras dos titulos 2 e 3 que devem ser
+menores que o 1 */
+h2 {
+    color: #000000;
+font-size:1.2em;
+}
+h3 {
+color:# 000000;
+    font - size: 1.0em;
+}#nav {
+    width: 30 % ;
+    float: left;
+    border - right: dotted #000000;
+border-width: 0 1 0 0px;
+}
+# principal {
+        border: dotted #000000;
+border-width: 1 1 1 1px;
+}
