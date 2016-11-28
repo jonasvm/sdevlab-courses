@@ -1,0 +1,1 @@
+DELETE FROM funcionarios WHERE nome="João da Silva"

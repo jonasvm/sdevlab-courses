@@ -1,0 +1,1 @@
+UPDATE funcionarios SET salario=100000 WHERE status="g"

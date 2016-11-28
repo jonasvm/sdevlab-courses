@@ -1,0 +1,1 @@
+ALTER TABLE 'aluno' ADD PRIMARY KEY ( nome(5) );

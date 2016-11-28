@@ -1,0 +1,1 @@
+SELECT * FROM funcionarios WHERE idade=25 AND (sexo="F" OR sexo="F")

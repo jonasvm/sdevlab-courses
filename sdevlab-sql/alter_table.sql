@@ -1,0 +1,1 @@
+ALTER TABLE 'aluno' CHANGE 'nome' 'nomes' TEXT NOT NULL

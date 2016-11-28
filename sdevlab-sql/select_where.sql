@@ -1,0 +1,1 @@
+SELECT * FROM funcionarios WHERE nome="João"

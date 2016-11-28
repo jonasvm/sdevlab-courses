@@ -1,0 +1,1 @@
+INSERT INTO funcionarios VALUES ('João da Silva','M',25)

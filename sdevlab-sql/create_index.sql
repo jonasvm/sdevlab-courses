@@ -1,0 +1,1 @@
+CREATE INDEX teste ON alunos (nome(5));

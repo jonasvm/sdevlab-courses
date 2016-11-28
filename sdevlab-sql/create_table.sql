@@ -1,0 +1,1 @@
+CREATE TABLE 'aluno'('nome' VARCHAR( 255 ) NOT NULL)
