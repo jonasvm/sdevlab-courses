@@ -1,0 +1,35 @@
+<html>
+    
+    <head>
+        <script>
+        function validateForm() {
+			var x = document.forms["form"]["name"].value;
+			var y = document.forms["form"]["email"].value
+			var atpos = y.indexOf("@");
+			var dotpos = y.lastIndexOf(".");
+			
+			if (x == null || x == "") 
+			{
+				alert("Campo nome precisa ser preenchido!");
+				return false;
+			}
+			
+			if (atpos = y.length) {
+				alert("Digite um endereço de e-mail válido!");
+				return false;
+			}
+		}
+        </script>
+    </head>
+    
+    <body>
+        <form name="form" action="" onsubmit="return validateForm()" method="post">
+            Nome:
+            <input type="text" name="name">
+            Email:
+            <input type="text" name="email">
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+
+</html>

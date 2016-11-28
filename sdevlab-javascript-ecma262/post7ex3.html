@@ -1,0 +1,18 @@
+<html>
+    
+    <head>
+        <script>
+			function promptBox() {
+				var name = prompt("Por favor digite seu nome", "Visitante");
+				if (name != null && name != "") {
+					document.write("Olá " + name + "! Como vai você?");
+				}
+			}
+        </script>
+    </head>
+    
+    <body>
+        <input type="button" onclick="promptBox()" value="Prompt" />
+    </body>
+
+</html>
