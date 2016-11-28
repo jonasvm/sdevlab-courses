@@ -1,0 +1,3 @@
+<?php
+   sayHello("seunome");
+?>
