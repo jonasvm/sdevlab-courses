@@ -1,3 +1,3 @@
 # sdevlab-cursos
 
-Nas sub-pastas estão os arquivos dos cursos que tem no blog sdevlab.wordpress.com.
+Here can be found some samples I published in my personal blog (long long ago) sdevlab.wordpress.com.
